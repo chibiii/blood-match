@@ -81,3 +81,6 @@ fos_user:
             type: Bloodmatch\UserBundle\Form\RegistrationType
         confirmation:
             enabled: true
+    profile:
+        form:
+            type: Bloodmatch\UserBundle\Form\RegistrationType
