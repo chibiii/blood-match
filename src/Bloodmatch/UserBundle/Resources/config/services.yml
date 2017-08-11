@@ -2,3 +2,8 @@ services:
 #    app_user.example:
 #        class: Bloodmatch\UserBundle\Example
 #        arguments: ["@service_id", "plain_value", "%parameter%"]
+
+	app.form.registration:
+        class: Bloodmatch\UserBundle\Form\RegistrationType
+        tags:
+            - { name: form.type, alias: app_user_registration }
