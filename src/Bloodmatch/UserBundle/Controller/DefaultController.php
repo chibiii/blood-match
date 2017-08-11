@@ -1,6 +1,6 @@
 <?php
 
-namespace SymfonyCebu\UserBundle\Controller;
+namespace Bloodmatch\UserBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
@@ -8,6 +8,6 @@ class DefaultController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('SymfonyCebuUserBundle:Default:index.html.twig');
+        return $this->render('BloodmatchUserBundle:Default:index.html.twig');
     }
 }

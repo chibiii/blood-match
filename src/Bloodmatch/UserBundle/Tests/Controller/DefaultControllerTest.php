@@ -1,6 +1,6 @@
 <?php
 
-namespace SymfonyCebu\UserBundle\Tests\Controller;
+namespace Bloodmatch\UserBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

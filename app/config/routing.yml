@@ -1,5 +1,5 @@
 app_user:
-    resource: "@SymfonyCebuUserBundle/Resources/config/routing.yml"
+    resource: "@BloodmatchUserBundle/Resources/config/routing.yml"
     prefix:   /user
 
 app:
