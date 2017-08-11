@@ -1,4 +1,4 @@
 services:
 #    app_user.example:
-#        class: SymfonyCebu\UserBundle\Example
+#        class: Bloodmatch\UserBundle\Example
 #        arguments: ["@service_id", "plain_value", "%parameter%"]

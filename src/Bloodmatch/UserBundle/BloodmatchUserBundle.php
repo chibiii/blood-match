@@ -1,10 +1,10 @@
 <?php
 
-namespace SymfonyCebu\UserBundle;
+namespace Bloodmatch\UserBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class SymfonyCebuUserBundle extends Bundle
+class BloodmatchUserBundle extends Bundle
 {
 	public function getParent()
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace SymfonyCebu\UserBundle\DependencyInjection;
+namespace Bloodmatch\UserBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
