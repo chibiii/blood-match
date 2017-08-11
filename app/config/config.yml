@@ -75,7 +75,9 @@ fos_user:
     user_class: Bloodmatch\UserBundle\Entity\User
     from_email:
         address: "%mailer_user%"
-        sender_name: "Symfony Cebu"
+        sender_name: "Blood Match"
     registration:
+        form:
+            type: Bloodmatch\UserBundle\Form\RegistrationType
         confirmation:
             enabled: true
